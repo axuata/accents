@@ -1,0 +1,81 @@
+﻿<ui:FluentWindow
+        x:Class="Accents.MainWindow"
+        x:Name="MainFluentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Accents"
+        xmlns:tray="http://schemas.lepo.co/wpfui/2022/xaml/tray"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        mc:Ignorable="d"
+        Title="Accents"
+        Height="275"
+        Width="745"
+        d:DesignHeight="275"
+        d:DesignWidth="745"
+        ExtendsContentIntoTitleBar="True"
+        WindowBackdropType="None"
+        WindowCornerPreference="Round"
+        WindowStartupLocation="CenterScreen"
+        Loaded="MainFluentWindow_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ui:TitleBar
+            x:Name="accentsTitlebar"
+            Title="Accents"
+            Grid.Row="0"
+            CloseWindowByDoubleClickOnIcon="True">
+        </ui:TitleBar>
+        <StackPanel x:Name="stackPanelTextboxButtonCopy" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <ui:TextBox x:Name="beforeConvertedTextbox" FontSize="18" Cursor="IBeam" Width="675" FontFamily="Segoe UI" TextChanged="beforeConvertedTextbox_TextChanged"/>
+            <Button x:Name="buttonSettings" Height="45" Width="45" Margin="5 0 0 0" Cursor="" Click="buttonSettings_Click">
+                <ui:SymbolIcon Symbol="Settings20" />
+            </Button>
+        </StackPanel>
+        <StackPanel x:Name="stackPanelAccentsList" Grid.Row="2" Orientation="Horizontal" Margin="10 5" Cursor="">
+            <Button x:Name="buttonAccentsListReset" Content="リセット" Height="105" Cursor="" Click="buttonAccentsListReset_Click"/>
+            <Grid x:Name="gridAccentsList">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel x:Name="stackPanelListFirst" Grid.Row="0" Orientation="Horizontal" Margin="0 0 0 5">
+                    <Button x:Name="buttonListFirstAcute" Content="´" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstAcute_Click" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstDoubleacute" Content="˝" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstDoubleacute_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstGrave" Content="`" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstGrave_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstDoublegrave" Content=" ̏" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstDoublegrave_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstBreve" Content="˘" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstBreve_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstCaron" Content="ˇ" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstCaron_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstCedilla" Content="¸" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstCedilla_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstCircumflex" Content="^" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstCircumflex_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstDiaeresis" Content="¨" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstDiaeresis_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstTilde" Content="~" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstTilde_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstDot" Content="˙" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstDot_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListFirstHook" Content=" ̉" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListFirstHook_Click" FontSize="20" FontFamily="Arial"/>
+                </StackPanel>
+                <StackPanel x:Name="stackPanelListSecond" Grid.Row="1" Orientation="Horizontal" Margin="0">
+                    <Button x:Name="buttonListSecondHorn" Content=" ̛" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondHorn_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListSecondMacron" Content="¯" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondMacron_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListSecondOgonek" Content="˛" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondOgonek_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListSecondRing" Content="˚" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondRing_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListSecondCommaabove" Content=" ̒" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondCommaabove_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListSecondCommabelow" Content="," Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondCommabelow_Click" FontSize="20" FontFamily="Arial"/>
+                    <Button x:Name="buttonListSecondSmoothbreathing" Content="᾿" Height="50" Width="50" Margin="5 0 0 0" Click="buttonListSecondSmoothbreathing_Click" FontSize="20" FontFamily="Arial"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel x:Name="stackPanelTextboxButtonSettings" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <ui:TextBox x:Name="afterConvertedTextbox" FontSize="18" Cursor="IBeam" Width="675" IsReadOnly="True" FontFamily="Segoe UI"/>
+            <Button x:Name="buttonCopy" Height="45" Width="45" Margin="5 0 0 0" Cursor="" Click="buttonCopy_Click">
+                <ui:SymbolIcon Symbol="Copy20" />
+            </Button>
+        </StackPanel>
+    </Grid>
+</ui:FluentWindow>
