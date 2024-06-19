@@ -3,20 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Accents||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|c:\\users\\axuata\\documents\\_user-documents\\_developments\\_softwares\\accents\\readme||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|solutionrelative:readme||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|c:\\users\\axuata\\documents\\_user-documents\\_developments\\_softwares\\accents\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|c:\\users\\axuata\\documents\\_user-documents\\_developments\\_softwares\\accents\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|c:\\users\\axuata\\documents\\_user-documents\\_developments\\_softwares\\accents\\dialogs\\settingsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\dialogs\\settingsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|solutionrelative:dialogs\\settingsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\dialogs\\settingsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|solutionrelative:dialogs\\settingsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F90CD50A-25F8-45F5-9961-C3A280CE1144}|Accents.csproj|c:\\users\\axuata\\documents\\_user-documents\\_developments\\_softwares\\accents\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +41,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "README",
+              "DocumentMoniker": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\README",
+              "RelativeDocumentMoniker": "README",
+              "ToolTip": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\README",
+              "RelativeToolTip": "README",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-19T09:56:32.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Accents",
+              "DocumentMoniker": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\Accents.csproj",
+              "RelativeDocumentMoniker": "Accents.csproj",
+              "ToolTip": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\Accents.csproj",
+              "RelativeToolTip": "Accents.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-19T09:55:56.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -38,12 +73,11 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAmwFwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:39:03.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:39:03.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -55,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SettingsDialog.xaml.cs",
               "DocumentMoniker": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\dialogs\\SettingsDialog.xaml.cs",
               "RelativeDocumentMoniker": "dialogs\\SettingsDialog.xaml.cs",
@@ -63,20 +97,18 @@
               "RelativeToolTip": "dialogs\\SettingsDialog.xaml.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAUwCQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:37:23.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:37:23.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SettingsDialog.xaml",
               "DocumentMoniker": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\dialogs\\SettingsDialog.xaml",
               "RelativeDocumentMoniker": "dialogs\\SettingsDialog.xaml",
               "ToolTip": "C:\\Users\\axuata\\Documents\\_user-documents\\_developments\\_softwares\\Accents\\dialogs\\SettingsDialog.xaml",
               "RelativeToolTip": "dialogs\\SettingsDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-19T09:37:05.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:37:05.437Z"
             }
           ]
         }
